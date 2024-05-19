@@ -13,7 +13,8 @@ interface WeatherApi {
     @GET("forecast.json")
     suspend fun getForecast(
         @Query("q") location: String,
-        @Query("key") apiKey: String = BuildConfig.API_KEY,
+        // Only to check the test task, I left the api key here, but it's bad :)
+        @Query("key") apiKey: String = /*BuildConfig.API_KEY*/ "580eb3f363cd48dda11125810241605",
         @Query("days") days: Int = DEFAULT_DAYS,
         @Query("lang") language: String = DEFAULT_LANGUAGE
     ): Response<RemoteWeather>
