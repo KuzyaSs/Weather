@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="retry_again">Retry again</string>
+    <string name="temperature">%s°</string>
+    <string name="today">Today</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="location_permission_not_granted_error">Grant location permission to the application in the settings</string>
+    <string name="gps_not_available_error">GPS is not available. Turn it on in settings</string>
+    <string name="location_receiving_error">Location receiving error</string>
+    <string name="connection_failure_error">Connection failure</string>
+</resources>

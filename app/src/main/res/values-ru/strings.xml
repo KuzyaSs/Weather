@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="retry_again">Попробовать снова</string>
+    <string name="temperature">%s°</string>
+    <string name="today">Сегодня</string>
+    <string name="monday">Пн</string>
+    <string name="tuesday">Вт</string>
+    <string name="wednesday">Ср</string>
+    <string name="thursday">Чт</string>
+    <string name="friday">Пт</string>
+    <string name="saturday">Сб</string>
+    <string name="sunday">Вс</string>
+    <string name="location_permission_not_granted_error">Предоставьте приложению разрешение на определение местоположения в настройках</string>
+    <string name="gps_not_available_error">Геолокация недоступна. Включите её в настройках</string>
+    <string name="location_receiving_error">Ошибка определения местоположения</string>
+    <string name="connection_failure_error">Ошибка соединения</string>
+</resources>
